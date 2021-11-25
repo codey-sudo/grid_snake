@@ -1,0 +1,16 @@
+
+div {
+    white-space : nowrap; 
+    overflow : hidden;
+  }
+  
+  div>div {
+    display: inline-block;
+    background-color: rgb(68, 157, 230);
+    border: 2px solid white;
+  }
+  
+  .touch {
+    background-color: rgb(147, 223, 145);
+  }
+  
