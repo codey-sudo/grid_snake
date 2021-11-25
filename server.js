@@ -54,4 +54,4 @@ let respondToBrowserRequest = function (request, response) {
 } };
 
 let server = http.createServer(respondToBrowserRequest);
- server.listen(nPort);
+server.listen(process.env.PORT || nPort);
